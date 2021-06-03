@@ -1,7 +1,8 @@
 <template lang="pug">
 article
   nuxt-content(:document="article")
-  pre {{ article }}
+//- article is a pasted js object.
+//- pre {{ article }}
 </template>
 
 <script>
@@ -11,6 +12,6 @@ export default {
     const article = await $content("blog", params.slug).fetch();
 
     return { article };
-  },
+  }
 };
 </script>
