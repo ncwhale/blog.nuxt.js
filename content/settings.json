@@ -1,0 +1,11 @@
+{
+    "title": "Kouga's Blog",
+    "url": "https://koa.im/",
+    "logo": {
+      "light": "/logo-light.svg",
+      "dark": "/logo-dark.svg"
+    },
+    "github": "nuxt/content",
+    "twitter": "Kouga_",
+    "defaultBranch": "master"
+  }
