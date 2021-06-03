@@ -1,29 +1,15 @@
-<template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        blog.nuxt.test
-      </h1>
-      <div class="links">
-        <a
-          href="/hello"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Hello?
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+.container
+  div
+    Logo
+    h1.title
+    | My static blog driven by nuxt.
+
+    .links
+      a.button--green(href='/blog/move-blog-to-nuxt' rel='noopener noreferrer')
+        | Howto
+      a.button--grey(href='https://github.com/ncwhale/blog.nuxt.js' target='_blank' rel='noopener noreferrer')
+        | GitHub
 </template>
 
 <script>
